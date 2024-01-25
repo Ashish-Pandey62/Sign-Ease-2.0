@@ -1,0 +1,119 @@
+.home-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-main-wrapper{
+    width: 98vw;
+    height: 96vh;
+    display: flex;
+}
+
+.h-left{
+    width: 49vw;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 1000;
+    cursor: default;
+    margin-bottom: 2vh;
+    background-clip: text;
+    background: -webkit-linear-gradient(45deg, #09009f, #ff00d9 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 6vw;
+    margin-top: 25vh;
+    z-index: 2;
+}
+.h-left p{
+    margin-left: 6vw;
+    font-size: 1.1rem;
+    color: #565555;
+    margin-bottom: 10vh;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.h-button{
+    font-weight: 900;
+    border-radius: 34px;
+    width: fit-content;
+    border: none;
+    color: white;
+    font-size: 23px;
+    padding: 12px 20px;
+    background: linear-gradient(90deg, #09009f, 26.71%, #ff00ff 99.36%);
+    box-shadow: 0px 0px 24px 3px rgba(245, 72, 202, 0.42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 6vw;
+    z-index: 2;
+}
+.h-button:hover{
+    transform: scale(1.03);
+}
+
+.h-right{
+    width: 49vw;
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.h-right img:nth-child(1){
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 30vh;
+    left: 16vw;
+    z-index: 2;
+}
+.h-right img:nth-child(2){
+    height: 250px;
+    width: 250px;
+    z-index: 2;
+}
+
+.blur-div1{
+    position: absolute;
+    width: 26rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(70px);
+    z-index: 1;
+    top: 25vh;
+    left: -3vw;
+}
+.blur-div2{
+    position: absolute;
+    width: 26rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: #d3cdff;
+    filter: blur(70px);
+    z-index: 1;
+    top: 25vh;
+    left: 42vw;
+}
+.h-svg{
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.8);
+    top:-8vh;
+    right: 3vw;
+}

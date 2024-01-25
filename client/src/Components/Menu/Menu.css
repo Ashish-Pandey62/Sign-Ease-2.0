@@ -1,0 +1,67 @@
+.main-menu {
+    width: 18vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.m-title{
+    cursor: default;
+    font-size: 2.2rem;
+    font-weight: 1000;
+    margin-bottom: 10vh;
+    background-clip: text;
+    background: -webkit-linear-gradient(45deg, #09009f, #ff00ff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.m-list{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vh;
+}
+.m-list li {
+    cursor: pointer;
+    display: flex;
+    gap: 18px;
+    color: #565555;
+}
+.m-list li:hover {
+    color: purple;
+    font-weight: 700;
+}
+.m-list li:nth-child(1) {
+    color: purple;
+    font-weight: 700;
+}
+.m-list li img{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+.m-button{
+    position: absolute;
+    bottom: 3vh;
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 9px 12px;
+    background: linear-gradient(180deg, #09009f, 26.71%, #ff00ff 99.36%);
+    box-shadow: 0px 0px 24px 3px rgba(245, 72, 202, 0.42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.m-button:hover {
+    background: white;
+    color: #09009f;
+    border: 1px solid #09009f;
+}

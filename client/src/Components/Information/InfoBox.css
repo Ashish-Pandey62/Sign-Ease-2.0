@@ -1,0 +1,113 @@
+.info-content {
+    width: 20vw;
+    max-width: 20vw;
+    min-width: 20vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.i-participants{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    height: 40vh;
+}
+.i-title{
+    font-size: 1.5rem;
+    margin-bottom: 1vh;
+    cursor: default;
+}
+.s-participant{
+    padding-left: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.s-participant span{
+    font-size: 1.2rem;
+    cursor: default;
+    color: #393939
+}
+.s-participant img{
+    height: 25px;
+    width: 25px;
+}
+.p-iname{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.i-icons{
+    display: flex;
+    gap: 1vw;
+    margin-right: 1vw;
+    cursor: pointer;
+}
+.i-icons img{
+    width: 20px;
+    height: 20px;
+}
+.i-chats{
+    height: 45vh;
+    position: relative;
+    padding: 15px;
+    cursor: default;
+}
+.send-chat{
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 3vh;
+    width: 90%;
+}
+.send-chat input{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background: #fbfafb;
+    padding: 8px;
+    border-radius: 8px;
+    border-bottom: 1px solid black;
+}
+.send-chat img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+hr{
+    width: 100%;
+    margin-bottom: 4vh;
+    border-color: #dadfe7;
+}
+.chat-box{
+    display: flex;
+    gap: 0.5vw;
+}
+.chat-box img{
+    margin-top: 4px;
+    height: 25px;
+    width: 25px;
+}
+.chats{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3vh;
+    max-height: 27vh;
+    overflow-y: scroll;
+    width: 100%;
+    color: #393939
+}
+.fiveDots{
+    display: flex;
+    align-items: center;
+    font-size: 3.5rem;
+    position: relative;
+}
+#activeDot{
+    position: absolute;
+    display: inline;
+    color: green;
+}

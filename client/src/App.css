@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Nunito&family=Roboto&family=Work+Sans&display=swap');
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.r-wrapper {
+    background-color: #F3F8FF;
+    border-radius: 15px;
+    color: black;
+}

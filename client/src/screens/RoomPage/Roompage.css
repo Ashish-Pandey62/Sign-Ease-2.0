@@ -1,0 +1,13 @@
+.main-wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-wrapper{
+    margin-top: 2vh;
+    width: 98vw;
+    display: flex;
+    gap: 0.2vw;
+}

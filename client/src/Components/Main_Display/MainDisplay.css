@@ -1,0 +1,167 @@
+.video-box {
+    width: 100%;
+    height: 66vh;
+    background-color: #dadfe7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.video-box img{
+    height: 60px;
+    width: 60px;
+}
+
+.text-box {
+    width: 95.5%;
+    height: 18vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 8px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.text-box span:nth-child(1){
+    font-weight: 1000;
+}
+
+.button-box {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    align-items: center;
+}
+.button-box img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.button-box img:nth-child(2){
+    width: 45px;
+    height: 45px;
+    transform: rotate(135deg);
+}
+.button-box img:nth-child(1){
+    text-decoration: line-through;
+}
+
+.video-content {
+    width: 60vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+}
+.recorder{
+    position: absolute;
+    z-index: -10;
+    visibility: hidden;
+}
+.my_stream{
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    right: -33px;
+}
+.c_and_s{
+    position: absolute;
+    z-index: 15;
+    bottom: 0;
+    left: 0;
+}
+.call-box{
+    position: absolute;
+    top:-100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    height: 130px;
+    width: 450px;
+    border-radius: 40px;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.show-call-box{
+    animation: slideIn 0.5s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+    from {
+        top: -100%;
+        /* Start above the viewport */
+    }
+
+    to {
+        top: 10px;
+        /* End at 10% from the top */
+    }
+}
+
+.call-box-upper{
+    margin-top: 20px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.call-box-info{
+    display: flex;
+    flex-direction: column;
+}
+.call-box-lower{
+    margin-bottom: 15px;
+    gap: 30px;
+    flex: 1;
+    display: flex;
+}
+.call-box-avatar{
+    flex: 0;
+    margin-left: 50px;
+}
+.call-box-avatar img{
+    width: 45px;
+    height: 45px;
+}
+.call-box-info{
+    margin-left: 30px;
+    flex: 1;
+}
+.call-box-name{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+}
+.call-box-type{
+    font-size: 14px;
+    color: #333333;
+}
+.call-box-button{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 150px;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    z-index: 20;
+    cursor: pointer;
+}
+.accept-button{
+    background-color: #00FF00;
+}
+.reject-button{
+    background-color: #FF0000;
+}
