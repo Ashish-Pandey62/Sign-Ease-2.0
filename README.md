@@ -67,3 +67,9 @@ https://drive.google.com/file/d/17DAo7MrDE9cwxysOt2shryFd2HLYbbl9/view?usp=shari
 2. Click on HandSign icon to turn on the video
 3. Once a green bleep appears next to your username, you can start showing the hand signs.
 4. The shown hand signs will be transcibed as English text on the caption section.
+
+#### For any Queries, Contact the authors:
+[@Ashish_Pandey](https://www.linkedin.com/in/ashish-pandey-715200266/)
+[@Darshan_Poudel](https://www.linkedin.com/in/darshan-poudel-b06555274/)
+[@Ankit_Mehta](https://www.linkedin.com/in/ankit-mehta-39536a273/)
+
