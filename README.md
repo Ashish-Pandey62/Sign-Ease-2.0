@@ -53,3 +53,17 @@ pip install -r requirements.txt
 ```bash
 python access.py
 ```
+
+## Demo
+
+https://drive.google.com/file/d/17DAo7MrDE9cwxysOt2shryFd2HLYbbl9/view?usp=sharing
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+## Usage
+
+1. Click on Try Now to access the trial phase of this project.
+2. Click on HandSign icon to turn on the video
+3. Once a green bleep appears next to your username, you can start showing the hand signs.
+4. The shown hand signs will be transcibed as English text on the caption section.
